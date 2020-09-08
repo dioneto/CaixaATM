@@ -1,0 +1,4 @@
+E:\git\CaxaATM\Services\CaixaATM.Data\obj\Debug\netcoreapp3.1\CaixaATM.Data.csprojAssemblyReference.cache
+E:\git\CaxaATM\Services\CaixaATM.Data\obj\Debug\netcoreapp3.1\CaixaATM.Data.AssemblyInfoInputs.cache
+E:\git\CaxaATM\Services\CaixaATM.Data\obj\Debug\netcoreapp3.1\CaixaATM.Data.AssemblyInfo.cs
+E:\git\CaxaATM\Services\CaixaATM.Data\obj\Debug\netcoreapp3.1\CaixaATM.Data.csproj.CoreCompileInputs.cache

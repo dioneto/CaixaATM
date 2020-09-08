@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CaixaATM.Application", "CaxaATM.Application\CaixaATM.Application.csproj", "{05B694B6-DBBC-4601-8A1E-3A95B1C7CE94}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{FF0942D3-221F-4ED3-8A69-75FA4D8B2F66}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "App", "App", "{69A9E206-CD53-47D1-B617-5504FBB3F24A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CaixaATM.Domain", "Services\CaixaATM.Domain\CaixaATM.Domain.csproj", "{AECBB10A-5110-4733-978B-E9622AC62A92}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CaixaATM.Data", "Services\CaixaATM.Data\CaixaATM.Data.csproj", "{C421B7AA-5067-404E-9FF0-6E8EB84EB1F2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{70060BAF-4FE8-47C1-8A00-9D22C872C5E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests1", "Tests\Tests1\Tests1.csproj", "{72334001-67F4-45E6-BEE6-D4E01DAB6EF1}"
+	ProjectSection(ProjectDependencies) = postProject
+		{AECBB10A-5110-4733-978B-E9622AC62A92} = {AECBB10A-5110-4733-978B-E9622AC62A92}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{05B694B6-DBBC-4601-8A1E-3A95B1C7CE94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05B694B6-DBBC-4601-8A1E-3A95B1C7CE94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05B694B6-DBBC-4601-8A1E-3A95B1C7CE94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05B694B6-DBBC-4601-8A1E-3A95B1C7CE94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AECBB10A-5110-4733-978B-E9622AC62A92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AECBB10A-5110-4733-978B-E9622AC62A92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AECBB10A-5110-4733-978B-E9622AC62A92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AECBB10A-5110-4733-978B-E9622AC62A92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C421B7AA-5067-404E-9FF0-6E8EB84EB1F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C421B7AA-5067-404E-9FF0-6E8EB84EB1F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C421B7AA-5067-404E-9FF0-6E8EB84EB1F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C421B7AA-5067-404E-9FF0-6E8EB84EB1F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72334001-67F4-45E6-BEE6-D4E01DAB6EF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72334001-67F4-45E6-BEE6-D4E01DAB6EF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72334001-67F4-45E6-BEE6-D4E01DAB6EF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72334001-67F4-45E6-BEE6-D4E01DAB6EF1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{05B694B6-DBBC-4601-8A1E-3A95B1C7CE94} = {FF0942D3-221F-4ED3-8A69-75FA4D8B2F66}
+		{AECBB10A-5110-4733-978B-E9622AC62A92} = {FF0942D3-221F-4ED3-8A69-75FA4D8B2F66}
+		{C421B7AA-5067-404E-9FF0-6E8EB84EB1F2} = {FF0942D3-221F-4ED3-8A69-75FA4D8B2F66}
+		{70060BAF-4FE8-47C1-8A00-9D22C872C5E7} = {FF0942D3-221F-4ED3-8A69-75FA4D8B2F66}
+		{72334001-67F4-45E6-BEE6-D4E01DAB6EF1} = {70060BAF-4FE8-47C1-8A00-9D22C872C5E7}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7E3D96B1-4FE5-438A-A2C2-4B8FE36483D3}
+	EndGlobalSection
+EndGlobal
