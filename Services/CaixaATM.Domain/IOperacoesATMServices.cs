@@ -10,5 +10,6 @@ namespace CaixaATM.Domain
         public Movimentacao Depositar(int conta, double valor, Guid origemAtendimento);
         public Movimentacao Sacar(int conta, double valor, Guid origemAtendimento);
         public Movimentacao Transferir(int contaOrigem, int contaDestino, double valor, Guid origemAtendimento);
+        public List<Conta> Contas(string cpf);
     }
 }

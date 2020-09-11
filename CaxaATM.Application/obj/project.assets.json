@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    ".NETCoreApp,Version=v3.1": {
+      "CaixaATM.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/CaixaATM.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CaixaATM.Domain.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "CaixaATM.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Services/CaixaATM.Domain/CaixaATM.Domain.csproj",
+      "msbuildProject": "../Services/CaixaATM.Domain/CaixaATM.Domain.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    ".NETCoreApp,Version=v3.1": [
+      "CaixaATM.Domain >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\dedio\\.nuget\\packages\\": {},
@@ -37,7 +56,11 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "E:\\git\\CaxaATM\\Services\\CaixaATM.Domain\\CaixaATM.Domain.csproj": {
+              "projectPath": "E:\\git\\CaxaATM\\Services\\CaixaATM.Domain\\CaixaATM.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

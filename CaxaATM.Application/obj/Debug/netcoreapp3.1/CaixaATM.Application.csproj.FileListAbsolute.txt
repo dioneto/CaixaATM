@@ -6,3 +6,7 @@ E:\git\CaxaATM\CaxaATM.Application\obj\Debug\netcoreapp3.1\CaixaATM.Application.
 E:\git\CaxaATM\CaxaATM.Application\obj\Debug\netcoreapp3.1\CaixaATM.Application.csproj.CoreCompileInputs.cache
 E:\git\CaxaATM\CaxaATM.Application\obj\Debug\netcoreapp3.1\CaixaATM.Application.dll
 E:\git\CaxaATM\CaxaATM.Application\obj\Debug\netcoreapp3.1\CaixaATM.Application.pdb
+E:\git\CaxaATM\CaxaATM.Application\bin\Debug\netcoreapp3.1\CaixaATM.Domain.dll
+E:\git\CaxaATM\CaxaATM.Application\bin\Debug\netcoreapp3.1\CaixaATM.Domain.pdb
+E:\git\CaxaATM\CaxaATM.Application\obj\Debug\netcoreapp3.1\CaixaATM.Application.csprojAssemblyReference.cache
+E:\git\CaxaATM\CaxaATM.Application\obj\Debug\netcoreapp3.1\CaixaATM.Application.csproj.CopyComplete

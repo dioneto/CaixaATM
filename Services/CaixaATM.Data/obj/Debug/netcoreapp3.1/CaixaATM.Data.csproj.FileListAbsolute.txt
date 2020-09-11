@@ -1,4 +1,12 @@
+E:\git\CaxaATM\Services\CaixaATM.Data\bin\Debug\netcoreapp3.1\CaixaATM.Data.deps.json
+E:\git\CaxaATM\Services\CaixaATM.Data\bin\Debug\netcoreapp3.1\CaixaATM.Data.dll
+E:\git\CaxaATM\Services\CaixaATM.Data\bin\Debug\netcoreapp3.1\CaixaATM.Data.pdb
+E:\git\CaxaATM\Services\CaixaATM.Data\bin\Debug\netcoreapp3.1\CaixaATM.Domain.dll
+E:\git\CaxaATM\Services\CaixaATM.Data\bin\Debug\netcoreapp3.1\CaixaATM.Domain.pdb
 E:\git\CaxaATM\Services\CaixaATM.Data\obj\Debug\netcoreapp3.1\CaixaATM.Data.csprojAssemblyReference.cache
 E:\git\CaxaATM\Services\CaixaATM.Data\obj\Debug\netcoreapp3.1\CaixaATM.Data.AssemblyInfoInputs.cache
 E:\git\CaxaATM\Services\CaixaATM.Data\obj\Debug\netcoreapp3.1\CaixaATM.Data.AssemblyInfo.cs
 E:\git\CaxaATM\Services\CaixaATM.Data\obj\Debug\netcoreapp3.1\CaixaATM.Data.csproj.CoreCompileInputs.cache
+E:\git\CaxaATM\Services\CaixaATM.Data\obj\Debug\netcoreapp3.1\CaixaATM.Data.csproj.CopyComplete
+E:\git\CaxaATM\Services\CaixaATM.Data\obj\Debug\netcoreapp3.1\CaixaATM.Data.dll
+E:\git\CaxaATM\Services\CaixaATM.Data\obj\Debug\netcoreapp3.1\CaixaATM.Data.pdb

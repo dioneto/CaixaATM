@@ -4,6 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using Microsoft.Extensions.Configuration;
 
 namespace CaixaATM.Data.Repository
 {
@@ -14,14 +15,16 @@ namespace CaixaATM.Data.Repository
         private List<Conta_Repos> _conta { get; set; }
         private List<Movimentacao_Repos> _movimentacaos { get; set; }
 
-        public ATMRepository()
+        public ATMRepository(IConfiguration configuration)
         {
+            //Leitura string connection base de dados
+            //configuration.GetConnectionString("ConnectionStringDB"));
             _atm = new List<ATM_Repos>();
             _cliente = new List<Cliente_Repos>();
             _conta = new List<Conta_Repos>();
         }
 
-        public bool AtualizarSaldoConta(decimal valor, string conta)
+        public bool AtualizarSaldoConta(decimal valor, int conta)
         {
             _conta.Find(x => x.NumeroConta == conta).Saldo=valor;
             
@@ -74,7 +77,11 @@ namespace CaixaATM.Data.Repository
 
         public Cliente ObterCliente(string cpf)
         {
-            throw new NotImplementedException();
+            var cli = _cliente.Where(x => x.CPF == cpf).FirstOrDefault();
+
+            if (cli == null) return null;
+
+            return new Cliente(cli.CPF, cli.Nome, cli.DataNascimento, cli.Senha);
         }
 
         public Conta ObterConta(string numeroConta)
@@ -90,6 +97,13 @@ namespace CaixaATM.Data.Repository
         public bool ValidarSenha(string cpf, string senha)
         {
             throw new NotImplementedException();
+        }
+
+        public List<Conta> ObterContas(string cpf)
+        {
+            return _conta.Where(x => x.CPFCliente == cpf)
+                .Select(x => new Conta(x.NumeroConta, ObterCliente(x.CPFCliente) ,x.Saldo))
+                .ToList();
         }
     }
 }

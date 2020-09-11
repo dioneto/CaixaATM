@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4geAw4aTxdhg0HcfuffEhrIIrjgkzbgl9N0WwtDPtxTAUTfpfHzvnitMP2Ino6J+mJsPTD5kt0vV5DOUcmiQPw==",
+  "dgSpecHash": "ZMCH2d0x5DWbX9EmFHcFqsFCsBLgG7ndYh7WTR18ODKRY6XqQRUgfqh1NXv0B+BADmrRSu0fULkqtw/Rj+CKZw==",
   "success": true,
-  "projectFilePath": "E:\\git\\CaxaATM\\Tests\\Tests1\\Tests1.csproj",
+  "projectFilePath": "E:\\git\\CaxaATM\\Tests\\Tests1\\CaixaATM.Domain.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dedio\\.nuget\\packages\\microsoft.codecoverage\\16.4.0\\microsoft.codecoverage.16.4.0.nupkg.sha512",
     "C:\\Users\\dedio\\.nuget\\packages\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",

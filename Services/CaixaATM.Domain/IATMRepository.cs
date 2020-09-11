@@ -13,9 +13,9 @@ namespace CaixaATM.Domain
         public Cliente IncluirCliente(Cliente cliente);
         public Conta ObterConta(string numeroConta);
         public Conta IncluirConta(Conta conta);
-        public bool AtualizarSaldoConta(decimal valor, string conta);
+        public bool AtualizarSaldoConta(decimal valor, int conta);
         public List<Movimentacao> ObterMovimentacoesPorConta(string numeroConta);
         public Movimentacao IncluirMovimentacao(Movimentacao movimentacao);
-
+        public List<Conta> ObterContas(string cpf);
     }
 }

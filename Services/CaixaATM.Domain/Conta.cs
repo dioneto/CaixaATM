@@ -9,11 +9,11 @@ namespace CaixaATM.Domain
     {
 
         public Guid Id { get; private set; }
-        public string NumeroConta { get; private set; }
+        public int NumeroConta { get; private set; }
         public Cliente Correntista { get; private set; }
         public decimal Saldo { get; private set; }
 
-        public Conta(string numeroConta, Cliente correntista, decimal saldo)
+        public Conta(int numeroConta, Cliente correntista, decimal saldo)
         {
             Id = Guid.NewGuid();
             NumeroConta = numeroConta;

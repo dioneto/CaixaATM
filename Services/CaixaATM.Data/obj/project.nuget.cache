@@ -1,8 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "A1UDdW/uRQaVMVhV+mgiJIlKxNAiYH28hWUHIzFRZDaDvka0JOo7rXtokeRKpvmX5kAYifWFkWviTD0XR1fdlw==",
+  "dgSpecHash": "6gtUkcsR/HjpXIEcJqkNriYWDPtHAbnP90INQHsQ1tt9eWhgJJ3jncgei5PYaJJg/iYU+DnCoFgYvGaLVLJBUQ==",
   "success": true,
   "projectFilePath": "E:\\git\\CaxaATM\\Services\\CaixaATM.Data\\CaixaATM.Data.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\dedio\\.nuget\\packages\\microsoft.extensions.configuration\\3.1.8\\microsoft.extensions.configuration.3.1.8.nupkg.sha512",
+    "C:\\Users\\dedio\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\3.1.8\\microsoft.extensions.configuration.abstractions.3.1.8.nupkg.sha512",
+    "C:\\Users\\dedio\\.nuget\\packages\\microsoft.extensions.configuration.binder\\3.1.8\\microsoft.extensions.configuration.binder.3.1.8.nupkg.sha512",
+    "C:\\Users\\dedio\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.1.8\\microsoft.extensions.dependencyinjection.abstractions.3.1.8.nupkg.sha512",
+    "C:\\Users\\dedio\\.nuget\\packages\\microsoft.extensions.options\\3.1.8\\microsoft.extensions.options.3.1.8.nupkg.sha512",
+    "C:\\Users\\dedio\\.nuget\\packages\\microsoft.extensions.options.configurationextensions\\3.1.8\\microsoft.extensions.options.configurationextensions.3.1.8.nupkg.sha512",
+    "C:\\Users\\dedio\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.8\\microsoft.extensions.primitives.3.1.8.nupkg.sha512"
+  ],
   "logs": []
 }

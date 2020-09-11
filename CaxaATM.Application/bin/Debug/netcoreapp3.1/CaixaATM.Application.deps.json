@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v3.1": {
       "CaixaATM.Application/1.0.0": {
+        "dependencies": {
+          "CaixaATM.Domain": "1.0.0"
+        },
         "runtime": {
           "CaixaATM.Application.dll": {}
+        }
+      },
+      "CaixaATM.Domain/1.0.0": {
+        "runtime": {
+          "CaixaATM.Domain.dll": {}
         }
       }
     }
   },
   "libraries": {
     "CaixaATM.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CaixaATM.Domain/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

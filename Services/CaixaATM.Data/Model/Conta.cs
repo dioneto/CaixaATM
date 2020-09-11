@@ -9,7 +9,7 @@ namespace CaixaATM.Data.Model
     {
 
         public Guid Id { get; set; }
-        public string NumeroConta { get; set; }
+        public int NumeroConta { get; set; }
         public string CPFCliente { get; set; }
         public decimal Saldo { get; set; }
 

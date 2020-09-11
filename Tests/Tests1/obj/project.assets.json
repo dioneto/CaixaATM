@@ -4650,9 +4650,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\git\\CaxaATM\\Tests\\Tests1\\Tests1.csproj",
-      "projectName": "Tests1",
-      "projectPath": "E:\\git\\CaxaATM\\Tests\\Tests1\\Tests1.csproj",
+      "projectUniqueName": "E:\\git\\CaxaATM\\Tests\\Tests1\\CaixaATM.Domain.Tests.csproj",
+      "projectName": "CaixaATM.Domain.Tests",
+      "projectPath": "E:\\git\\CaxaATM\\Tests\\Tests1\\CaixaATM.Domain.Tests.csproj",
       "packagesPath": "C:\\Users\\dedio\\.nuget\\packages\\",
       "outputPath": "E:\\git\\CaxaATM\\Tests\\Tests1\\obj\\",
       "projectStyle": "PackageReference",
